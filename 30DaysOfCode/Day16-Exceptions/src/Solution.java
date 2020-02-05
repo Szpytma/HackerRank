@@ -13,6 +13,7 @@ public class Solution {
 
       // If our string is not a number print Exception message
       System.out.println("Bad String");
+
     }
   }
 }
