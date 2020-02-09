@@ -19,7 +19,7 @@ class Calculator implements AdvancedArithmetic {
                 sum += i + n/i; // add both divisors
             }
         }
-
+        //
         // If sqrt is a divisor, we should only count it once
         if (sqrt * sqrt == n) {
             sum -= sqrt;
