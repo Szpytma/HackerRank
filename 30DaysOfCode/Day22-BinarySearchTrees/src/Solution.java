@@ -43,7 +43,7 @@ class Solution {
     }
   }
 
-  public static void main(String args[]) {
+  public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     int T = sc.nextInt();
     Node root = null;
@@ -51,6 +51,7 @@ class Solution {
       int data = sc.nextInt();
       root = insert(root, data);
     }
+    assert root != null;
     int height = getHeight(root);
     System.out.println(height);
   }
