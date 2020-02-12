@@ -6,6 +6,7 @@ public class Solution {
         Scanner scan = new Scanner(System.in);
 
         // Read a full line of input from stdin and save it to our variable, inputString.
+        System.out.println("Please type a message");
         String inputString = scan.nextLine();
 
         // Close the scanner object, because we've finished reading
