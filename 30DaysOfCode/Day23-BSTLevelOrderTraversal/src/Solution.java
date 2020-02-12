@@ -16,7 +16,7 @@ class Node {
 class Solution {
 
   static void levelOrder(Node root) {
-    Queue<Node> queue = new LinkedList<Node>();
+    Queue<Node> queue = new LinkedList<>();
     queue.add(root);
 
     while (!queue.isEmpty()) {
@@ -47,7 +47,7 @@ class Solution {
     }
   }
 
-  public static void main(String args[]) {
+  public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     int T = sc.nextInt();
     Node root = null;
