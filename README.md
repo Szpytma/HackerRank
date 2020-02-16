@@ -4,8 +4,8 @@
     </a>
 </p>
 
-* Java
-* 30 Days of Code
+* [Java](https://github.com/Szpytma/HackerRank/tree/master/Java "Java")
+* [30 Days of Code](https://github.com/Szpytma/HackerRank/tree/master/30DaysOfCode "30 Days of Code")
 * Problem Solving
 * SQL
 
